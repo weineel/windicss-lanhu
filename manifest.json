@@ -1,0 +1,20 @@
+{
+  "name": "Windicss Lanhu",
+  "description": "Windicss/Tailwindcss 蓝湖增强",
+  "manifest_version": 3,
+  "homepage_url": "https://github.com/weineel/windicss-lanhu",
+  "version": "0.0.2",
+  "author": "weineel",
+  "content_scripts": [
+    {
+      "all_frames": false,
+      "matches": [
+        "https://lanhuapp.com/web/*"
+      ],
+      "js": [
+        "dist/bundle.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
