@@ -1,11 +1,12 @@
 {
   "name": "windicss-lanhu",
   "author": "weineel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "windicss 蓝湖增强",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "dev": "yarn build --watch",
     "build": "rollup --config rollup.config.ts --configPlugin typescript"
   },
   "devDependencies": {

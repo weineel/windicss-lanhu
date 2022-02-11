@@ -2,8 +2,8 @@
   "name": "Windicss Lanhu",
   "description": "Windicss/Tailwindcss 蓝湖增强",
   "manifest_version": 3,
-  "homepage_url": "https://github.com/weineel/windicss-lanhu",
-  "version": "0.0.2",
+  "homepage_url": "http://git.patsnap.com/jufeng.li/windicss-lanhu",
+  "version": "0.0.3",
   "author": "weineel",
   "content_scripts": [
     {
